@@ -1,0 +1,12 @@
+@switch (selectedOption) { @case ('introducción'){
+<lesson-introduccion></lesson-introduccion>
+} @case('objetivos'){
+<lesson-objetivos></lesson-objetivos>
+} @case ('contenido'){
+<lesson-contenido></lesson-contenido>
+} @case ('actividad'){
+<lesson-actividad></lesson-actividad>
+} @default {
+<!-- no hay resultados -->
+<p class="text-center text-muted">No se ha encontrado nada.</p>
+} }

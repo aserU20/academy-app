@@ -1,0 +1,9 @@
+<h1 class="mb-4">Contenido</h1>
+
+@for (item of content; track $index) {
+    <div>
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.text }}</p>
+    </div>
+}
+

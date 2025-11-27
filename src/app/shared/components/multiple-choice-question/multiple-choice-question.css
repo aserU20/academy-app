@@ -1,0 +1,15 @@
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.mcq-container {
+  border: 1px solid #dedede;
+  padding: 16px;
+  border-radius: 8px;
+}
